@@ -19,6 +19,7 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 #pragma clang diagnostic ignored "-Wdirect-ivar-access"
+#include <libkern/OSAtomic.h>
 
 #pragma mark - SVGAProtoSvgaRoot
 
